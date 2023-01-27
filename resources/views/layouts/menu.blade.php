@@ -116,7 +116,7 @@
                             @endif
                         </a>
                     @endcan
-                    @can('ver-fotografia')
+                    {{-- @can('ver-fotografia')
                         <a class="nav-link" href="{{ route('fotografias.index') }}"
                             style="background-color: {{ auth()->user()->color }}">
                             @if (auth()->user()->color === 'white' || auth()->user()->color === 'skyblue')
@@ -130,7 +130,7 @@
                                     style="color:#1c0f5e">Gestionar Fotografías</span>
                             @endif
                         </a>
-                    @endcan
+                    @endcan --}}
                     @can('ver-grupo')
                         <a class="nav-link" href="{{ route('grupos.index') }}"
                             style="background-color: {{ auth()->user()->color }}">

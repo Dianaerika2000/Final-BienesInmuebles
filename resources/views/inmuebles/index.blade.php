@@ -81,7 +81,7 @@
 
                                                         @can('ver-fotografia')
                                                             <a class="btn btn-warning"
-                                                                href="{{ route('imagenes.index', $inmueble->id) }}">Fotos</a>
+                                                                href="{{ route('imagenes.index', $inmueble->id) }}">Fotografía</a>
                                                         @endcan
 
                                                         @can('ver-revaluo')
