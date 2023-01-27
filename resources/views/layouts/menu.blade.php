@@ -1,6 +1,6 @@
 <body style="background-color:{{ auth()->user()->color }};">
 
-    <ul class="navbar-nav accordion" id="accordionSidebar" style="background-color: {{ auth()->user()->color }}">
+    <ul class="navbar-nav accordion" id="accordionSidebar" style="background-color: {{ auth()->user()->color }}"> 
 
         <hr class="sidebar-divider my-0" style="background-color: {{ auth()->user()->color }}">
         <!-- PANEL ADMINISTRATIVO -->

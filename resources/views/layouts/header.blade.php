@@ -93,20 +93,6 @@
                     <i class="fas fa-adjust"></i><h6 class="control-sidebar-heading">TEMAS</h6>
                     <input id="navbar1" type="radio" name="color" value="skyblue"
                             {{(auth()->user()->color == 'skyblue')? 'checked' : '' }}>Modo Día<br>
-                    <input id="navbar2" type="radio" name="color" value="black"
-                            {{(auth()->user()->color == 'black')? 'checked' : '' }}>Modo Noche<br>
-                    <input id="navbar3" type="radio" name="color" value="yellow"
-                            {{(auth()->user()->color == 'yellow')? 'checked' : '' }}>Niños<br>
-                    <input id="navbar4" type="radio" name="color" value="purple"
-                            {{(auth()->user()->color == 'purple')? 'checked' : '' }}>Jovenes<br>
-                    <input id="navbar5" type="radio" name="color" value="green"
-                            {{(auth()->user()->color == 'green')? 'checked' : '' }}>Adultos<br>
-                    <input id="navbar6" type="radio" name="color" value="blue"
-                            {{(auth()->user()->color == 'blue')? 'checked' : '' }}>Azul<br>
-                    <input id="navbar7" type="radio" name="color" value="white"
-                            {{(auth()->user()->color == 'white')? 'checked' : '' }}>Blanco<br>
-                    <input id="navbar8" type="radio" name="color" value="red"
-                            {{(auth()->user()->color == 'red')? 'checked' : '' }}>Rojo<br>
                     <input id="navbar9" type="radio" name="color" value=""
                             {{(auth()->user()->color == '')? 'checked' : '' }}>Normal<br>
                     <button class="btn btn-primary" type="submit"><span class="fa fa-save"></span></button>

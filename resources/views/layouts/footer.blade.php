@@ -11,6 +11,6 @@
 @else
     <div class="footer-left" style="color:deepskyblue">
         @yield('contentFooter')
-        <small>Todos los derechos reservados - Tecnología Web - Grupo 9 &copy; {{ date('Y') }}</small>
+        <small>Todos los derechos reservados - Unidad Bienes Inmuebles &copy; {{ date('Y') }}</small>
     </div>
 @endif
